@@ -12,33 +12,54 @@
 </head>
 <body>
 
-  <div class="grid island-1-2 action-card">
+  <div class="grid island-1-2">
     <div class="unit xs-1 s-1 m-1-2 l-1-3">
-
-      <menu class="action-tools-top list-group">
-        <li>
-          <button class="btn action-btn">
-            <i class="icon i-1"><svg><use xlink:href="images/icons.svg#fullscreen"></use></svg></i>
-          </button>
-        </li>
-        <li class="action-btn"></li>
-      </menu>
+      <article class="action-card relative">
 
         <picture class="img-flex">
-          <source media="(min-width:60em)" srcset="images/blue-bolt-975.jpg 2x, images/blue-bolt-480.jpg 1x">
-          <img srcset="images/blue-bolt-975.jpg 2x, images/blue-bolt-480.jpg 1x" src="images/blue-bolt-480.jpg" alt="">
+          <img class="img-flex" srcset="images/blue-bolt-975.jpg 975w, images/blue-bolt-480.jpg 480w" sizes="(min-width: 60em) 33vw, (min-width: 38em) 50vw, 100vw" src="images/blue-bolt-480.jpg" alt="">
         </picture>
-        <div class="absolute pin-lb island-1-2 max-length">
+        <header>
           <h1 class="push-1-8">Blue Bolt, Series 6D, № 4</h1>
           <p class="push-1-2">Blue Bolt, the human lightning streak, in weird & fantastic stories of the unknown.</p>
-        </div>
+        </header>
 
-      <menu class="action-tools-bottom">
-        <li class="action-btn"></li>
-        <li class="action-btn"></li>
-        <li class="action-btn"></li>
-      </menu>
+        <footer>
+          <menu class="action-tools action-tools-top list-group-inline pin-rt">
+            <li>
+              <button class="btn action-btn">
+                <i class="icon i-1"><svg><use xlink:href="images/icons.svg#fullscreen"></use></svg></i>
+              </button>
+            </li>
+            <li>
+              <button class="btn action-btn">
+                <i class="icon i-1"><svg><use xlink:href="images/icons.svg#download"></use></svg></i>
+              </button>
+            </li>
+          </menu>
 
+          <menu class="action-tools action-tools-bottom list-group-inline">
+            <li>
+              <button class="btn action-btn">
+                <i class="icon i-1"><svg><use xlink:href="images/icons.svg#heart"></use></svg></i>
+              </button>
+            </li>
+
+            <li>
+              <button class="btn action-btn">
+                <i class="icon i-1"><svg><use xlink:href="images/icons.svg#share"></use></svg></i>
+              </button>
+            </li>
+
+            <li>
+              <button class="btn action-btn">
+                <i class="icon i-1"><svg><use xlink:href="images/icons.svg#comment"></use></svg></i>
+              </button>
+            </li>
+          </menu>
+        </footer>
+
+      </article>
     </div>
   </div>
 
